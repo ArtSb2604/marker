@@ -688,7 +688,7 @@ header nav a {
     color: #FFF;
 }
 
-.selected a:hover, .sphere a:hover, .preview a:hover {
+.selected a:hover, .sphere a:hover, .preview a:hover, .catalog-btn:hover {
     color: #F99E00;
     background: #FFF;
     border: 0.08rem solid #232B37;
