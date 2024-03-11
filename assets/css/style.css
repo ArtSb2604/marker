@@ -693,3 +693,21 @@ header nav a {
     background: #FFF;
     border: 0.08rem solid #232B37;
 }
+
+.sphere-col .sphere__elem:nth-child(1):hover svg path, .sphere__elem:nth-child(2):hover svg circle {
+    stroke-dasharray: 400; /* длина контура */
+    stroke-dashoffset: 400; /* начальное смещение (длина контура) */
+    animation: draw 3s linear forwards; /* анимация */
+  }
+
+  .sphere-col .sphere__elem:nth-child(2):hover svg path, .sphere__elem:nth-child(2):hover svg circle, .sphere__elem:nth-child(2):hover svg polyline, .sphere__elem:nth-child(2):hover svg line {
+    stroke-dasharray: 100; /* длина контура */
+    stroke-dashoffset: 100; /* начальное смещение (длина контура) */
+    animation: draw 3s linear forwards; /* анимация */
+  }
+  
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0; /* завершающее смещение */
+    }
+  }
