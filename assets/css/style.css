@@ -249,8 +249,9 @@ header nav a {
     color: #FFF;
     z-index: -1;
     width: 91.2rem;
-    top: 8rem;
-    left: 18rem;
+    top: 13rem;
+    left: 19rem;
+    text-transform: uppercase;
 }
 
 .selected {
